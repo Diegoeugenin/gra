@@ -1,0 +1,206 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Despegar | Diego Eugenin, 2025</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<style type="text/css">
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(background-picture.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header {
+    background-color: #fff;
+    min-width: 0px;
+    min-height: 0px;
+    width: 0px;
+}
+.logo {
+    height: 121px;
+    min-width: 0px;
+    min-height: 0px;
+    width: 370px;
+    margin-left: 4px;
+}
+wrapper {
+    width: 1366px;
+    margin: 32px auto;
+    display: block;
+    border-radius: 16px;
+    background-color: rgba(0,0,0,0.50);
+}
+#Tabs1 ul {
+    background-image: none;
+    border: none;
+    background-color: transparent;
+}
+#Tabs1 {
+    background-image: none;
+    border: none;
+    background-color: transparent;
+}
+#Tabs1 li {
+    background-image: none;
+    background-color: rgba(255,255,255,0.25);
+    margin: 8px;
+    text-align: center;
+    border-width: thin;
+    border-radius: 8px;
+    border-style: solid;
+}
+#Tabs1 li:hover {
+    background-color: rgba(134,14,16,1.00);
+}
+#Tabs1 a {
+    color: #fff;
+    font-family: Oswald, sans-serif;
+}
+input ,select{
+    margin: 8px;
+    padding: 8px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Osswald,sans-serif;
+    border: thin solid #B63030;
+    border-radius: 8px;
+    color: rgba(134,14,16,1.00);
+}
+section {
+    width: 50%;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-right: -4px;
+}
+#Submit {
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: -4px;
+    width: 223px;
+    padding-bottom: 7px;
+    right: -42px;
+    bottom: -119px;
+    left: 134px;
+    height: 55px;
+    max-width: 175px;
+    display: inline-block;
+    top: 106px;
+    color: #fff;
+    background-color: rgba(134,14,16,1.00);
+}
+#tabs-2 input {
+    margin: 8px;
+    padding: 8px;
+    width: 100px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Osswald,sans-serif;
+    border-radius: 8px;
+    border: thin solid rgba(134,14,16,1.00);
+}
+</style>
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.tabs.min.js"></script>
+</head>
+
+<body>
+<header><img src="Despegar-logo.png" alt="" width="2560" height="743" class="logo"></header>
+<wrapper></wrapper>
+<div id="Tabs1">
+  <ul>
+    <li><a href="#tabs-1"><img src="airplane.png" alt="" width="81" height="34"><br>
+    Flights</a></li>
+    <li><a href="#tabs-2"><img src="hotel.png" alt="" width="61" height="34"><br>
+    Hotels</a></li>
+    <li><a href="#tabs-3"><img src="car.png" alt="" width="88" height="34"><br>
+    Cars</a></li>
+    <li><a href="#tabs-4"><img src="cruises.png" alt="" width="65" height="34"><br>
+    Cruises</a></li>
+    <li><a href="#tabs-5"><img src="tour.png" alt="" width="68" height="34"><br>
+    Tours</a></li>
+  </ul>
+  <div id="tabs-1"><input type="text" placeholder="Going to">
+    <section>
+      <input placeholder="mm/dd/yyyy">
+    </section>
+    <section>
+      <input placeholder="mm/dd/yyyy">
+    </section>
+    <select>
+		
+      <option value="0">Number of Travelers</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+    </select>
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+<input name="Submit" type="submit" id="Submit">
+  </div>
+  <div id="tabs-2"><input type="text" placeholder="Where to Stay">
+    <section>
+      <input placeholder="mm/dd/yyyy">
+    </section>
+    <section>
+      <input placeholder="mm/dd/yyyy">
+    </section>
+    <select>
+		
+      <option value="0">Number of Guests</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+    </select>
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+ <input name="Submit" type="submit" id="Submit">
+  <div id="tabs-3"><input type="text" placeholder="Choose">
+    <section>
+      <input placeholder="mm/dd/yyyy">
+    </section>
+    <section>
+      <input placeholder="mm/dd/yyyy">
+    </section>
+    <select>
+		
+      <option value="0">Type of Vehicle</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+    </select>
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+ <input name="Submit" type="submit" id="Submit">
+    <p></p>
+  </div>
+  <div id="tabs-4">
+    <p></p>
+  </div>
+  <div id="tabs-5">
+    <p></p>
+  </div>
+</div>
+<h3>&nbsp; </h3>
+<script type="text/javascript">
+$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
+  </script>
+</body>
+</html>
